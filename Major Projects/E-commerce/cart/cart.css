@@ -1,0 +1,98 @@
+/* Cart Container */
+.cart-container {
+  width: max-content;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-container h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  padding: 10px;
+  margin: 5px 0;
+  /* background: #f1f1f1; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.remove-item {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-item:hover {
+  background: darkred;
+}
+
+.cart-container button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.cart-container button:nth-child(2) {
+  background: #ff6600;
+  color: white;
+}
+
+.cart-container button:nth-child(2):hover {
+  background: #e65c00;
+}
+
+.cart-container button:nth-child(3) {
+  background: #28a745;
+  color: white;
+}
+
+.cart-container button:nth-child(3):hover {
+  background: #218838;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #ff5733;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e04b2f;
+}
+
+button + button {
+  margin-left: 10px;
+  background-color: #28a745;
+}
+
+button + button:hover {
+  background-color: #218838;
+}

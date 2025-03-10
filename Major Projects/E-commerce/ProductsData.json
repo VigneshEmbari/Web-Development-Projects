@@ -1,0 +1,219 @@
+[
+  {
+    "category": "Suggested Products",
+    "items": [
+      { "name": "Sofa", "price": 59.99, "image": "./assets/sofa.jpg" },
+      { "name": "Monitor", "price": 89.99, "image": "./assets/monitor.jpg" },
+      { "name": "Mobile", "price": 99.99, "image": "./assets/mobile1.jpg" },
+      {
+        "name": "Jacket",
+        "price": 99.99,
+        "image": "./assets/clothing1.png"
+      },
+      { "name": "Watch", "price": 79.99, "image": "./assets/watch.jpg" }
+    ]
+  },
+  {
+    "category": "Electronics",
+    "items": [
+      { "name": "Mobile", "price": 99.99, "image": "./assets/mobile1.jpg" },
+      { "name": "Mouse", "price": 499.99, "image": "./assets/mouse.jpg" },
+      {
+        "name": "Headphones",
+        "price": 459.99,
+        "image": "./assets/headphones.jpg"
+      },
+      { "name": "Laptop", "price": 799.99, "image": "./assets/laptop.jpg" },
+      { "name": "Monitor", "price": 89.99, "image": "./assets/monitor.jpg" },
+      {
+        "name": "Headphones",
+        "price": 459.99,
+        "image": "./assets/headphones.jpg"
+      },
+      { "name": "Laptop", "price": 799.99, "image": "./assets/laptop.jpg" },
+      { "name": "Monitor", "price": 89.99, "image": "./assets/monitor.jpg" },
+      { "name": "Mouse", "price": 499.99, "image": "./assets/mouse.jpg" },
+      { "name": "Mobile", "price": 99.99, "image": "./assets/mobile1.jpg" }
+    ]
+  },
+  {
+    "category": "Fashion",
+    "items": [
+      {
+        "name": "T-Shirt",
+        "price": 19.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=T-Shirt"
+      },
+      {
+        "name": "Jeans",
+        "price": 49.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Jeans"
+      },
+      {
+        "name": "Sneakers",
+        "price": 79.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Sneakers"
+      },
+      {
+        "name": "Jacket",
+        "price": 99.99,
+        "image": "./assets/clothing1.png"
+      },
+      {
+        "name": "Sunglasses",
+        "price": 39.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Sunglasses"
+      },
+      {
+        "name": "Hat",
+        "price": 29.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Hat"
+      },
+      {
+        "name": "Dress",
+        "price": 89.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Dress"
+      },
+      {
+        "name": "Wristwatch",
+        "price": 129.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Wristwatch"
+      },
+      {
+        "name": "Handbag",
+        "price": 69.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Handbag"
+      },
+      {
+        "name": "Scarf",
+        "price": 19.99,
+        "image": "https://dummyimage.com/200x200/ddd/000&text=Scarf"
+      }
+    ]
+  },
+  {
+    "category": "Home Furniture",
+    "items": [
+      { "name": "Sofa", "price": 59.99, "image": "./assets/sofa.jpg" },
+      { "name": "Dining Set", "price": 89.99, "image": "./assets/dining.jpg" },
+      {
+        "name": "Chair",
+        "price": 89.99,
+        "image": "https://placehold.co/200x200?text=Chair"
+      },
+      {
+        "name": "Bed",
+        "price": 999.99,
+        "image": "https://placehold.co/200x200?text=Bed"
+      },
+      {
+        "name": "Cupboard",
+        "price": 399.99,
+        "image": "https://placehold.co/200x200?text=Cupboard"
+      },
+      {
+        "name": "Lamp",
+        "price": 59.99,
+        "image": "https://placehold.co/200x200?text=Lamp"
+      },
+      {
+        "name": "Bookshelf",
+        "price": 149.99,
+        "image": "https://placehold.co/200x200?text=Bookshelf"
+      },
+      {
+        "name": "Desk",
+        "price": 299.99,
+        "image": "https://placehold.co/200x200?text=Desk"
+      },
+      {
+        "name": "Wardrobe",
+        "price": 799.99,
+        "image": "https://placehold.co/200x200?text=Wardrobe"
+      },
+      {
+        "name": "Coffee Table",
+        "price": 199.99,
+        "image": "https://placehold.co/200x200?text=Coffee+Table"
+      }
+    ]
+  },
+  {
+    "category": "Sports",
+    "items": [
+      { "name": "Football", "price": 29.99, "image": "https://placehold.co/200x200?text=Football" },
+      { "name": "Basketball", "price": 24.99, "image": "https://placehold.co/200x200?text=Basketball" },
+      {
+        "name": "Tennis Racket",
+        "price": 79.99,
+        "image": "https://placehold.co/200x200?text=Tennis+Racket"
+      },
+      {
+        "name": "Cricket Bat",
+        "price": 49.99,
+        "image": "https://placehold.co/200x200?text=Cricket+Bat"
+      },
+      {
+        "name": "Badminton Set",
+        "price": 39.99,
+        "image": "https://placehold.co/200x200?text=Badminton+Set"
+      },
+      {
+        "name": "Yoga Mat",
+        "price": 19.99,
+        "image": "https://placehold.co/200x200?text=Yoga+Mat"
+      },
+      {
+        "name": "Dumbbells",
+        "price": 59.99,
+        "image": "https://placehold.co/200x200?text=Dumbbells"
+      },
+      {
+        "name": "Treadmill",
+        "price": 899.99,
+        "image": "https://placehold.co/200x200?text=Treadmill"
+      },
+      {
+        "name": "Cycling Helmet",
+        "price": 39.99,
+        "image": "https://placehold.co/200x200?text=Cycling+Helmet"
+      },
+      {
+        "name": "Skipping Rope",
+        "price": 14.99,
+        "image": "https://placehold.co/200x200?text=Skipping+Rope"
+      }
+    ]
+  },
+  {
+    "category": "Personal Care",
+    "items": [
+      { "name": "Face Moisturizer", "price": 15.99, "image": "https://placehold.co/200x200?text=Face+Moisturizer" },
+      { "name": "Shampoo", "price": 12.49, "image": "https://placehold.co/200x200?text=Shampoo" },
+      { "name": "Lipstick", "price": 9.99, "image": "https://placehold.co/200x200?text=Lipstick" },
+      { "name": "Perfume", "price": 29.99, "image": "https://placehold.co/200x200?text=Perfume" },
+      { "name": "Hair Dryer", "price": 39.99, "image": "https://placehold.co/200x200?text=Hair+Dryer" },
+      { "name": "Makeup Brush Set", "price": 19.99, "image": "https://placehold.co/200x200?text=Brush+Set" },
+      { "name": "Face Mask", "price": 5.99, "image": "https://placehold.co/200x200?text=Face+Mask" },
+      { "name": "Body Lotion", "price": 14.99, "image": "https://placehold.co/200x200?text=Body+Lotion" },
+      { "name": "Sunscreen", "price": 18.99, "image": "https://placehold.co/200x200?text=Sunscreen" },
+      { "name": "Electric Shaver", "price": 49.99, "image": "https://placehold.co/200x200?text=Shaver" }
+    ]
+  },
+  {
+    "category": "Kitchen Appliances",
+    "items": [
+      { "name": "Microwave", "price": 149.99, "image": "https://placehold.co/200x200?text=Microwave" },
+      { "name": "Blender", "price": 59.99, "image": "https://placehold.co/200x200?text=Blender" },
+      { "name": "Coffee Maker", "price": 79.99, "image": "https://placehold.co/200x200?text=Coffee+Maker" },
+      { "name": "Toaster", "price": 34.99, "image": "https://placehold.co/200x200?text=Toaster" },
+      { "name": "Electric Kettle", "price": 29.99, "image": "https://placehold.co/200x200?text=Kettle" },
+      { "name": "Rice Cooker", "price": 89.99, "image": "https://placehold.co/200x200?text=Rice+Cooker" },
+      { "name": "Air Fryer", "price": 129.99, "image": "https://placehold.co/200x200?text=Air+Fryer" },
+      { "name": "Dishwasher", "price": 499.99, "image": "https://placehold.co/200x200?text=Dishwasher" },
+      { "name": "Hand Mixer", "price": 39.99, "image": "https://placehold.co/200x200?text=Hand+Mixer" },
+      { "name": "Food Processor", "price": 149.99, "image": "https://placehold.co/200x200?text=Food+Processor" }
+    ]
+  }
+  
+]

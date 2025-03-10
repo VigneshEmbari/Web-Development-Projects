@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="checkout.css" />
+    <link rel="stylesheet" href="../cart/cart.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">E-Commerce</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html?category=electronics">Electronics</a></li>
+        <li><a href="../index.html?category=fashion">Fashion</a></li>
+        <li><a href="../index.html?category=home furniture">Furniture</a></li>
+        <li><a href="../index.html?category=Kitchen Appliances">Kitchen Appliances</a></li>
+        <li><a href="../index.html?category=Personal Care">Personal Care</a></li>
+      </ul>
+      <div class="cart">
+        <a href="../cart/cart.html">
+          <i class="fas fa-shopping-cart"></i> Cart <span id="cart-count"
+            ></span
+          >
+        </a>
+      </div>
+    </nav>
+
+    <div id="notification" class="notification"></div>
+
+    <div class="checkout-container">
+      <h2>Checkout</h2>
+
+      <form class="checkout-form">
+        <h3>Billing Details</h3>
+
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" class="full-width" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input
+            type="email"
+            class="full-width"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Address</label>
+          <input
+            type="text"
+            class="full-width"
+            placeholder="Enter your address"
+          />
+        </div>
+
+        <h3>Payment Information</h3>
+
+        <div class="form-group">
+          <label>Card Number</label>
+          <input
+            type="text"
+            class="full-width"
+            placeholder="Enter card number"
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Expiry Date</label>
+          <input type="month" class="half-width" />
+          <label>CVV</label>
+          <input type="text" class="half-width" placeholder="CVV" />
+        </div>
+
+        <div class="order-summary">
+          <h3>Order Summary</h3>
+          <ul id="checkout-items"></ul>
+          <p><b>Total:</b> ₹<span id="cart-total">0</span></p>
+        </div>
+
+        <button class="checkout-btn" id="place-order-btn">Place Order</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>E-Commerce</h2>
+          <p>Your go-to store for amazing products at great prices!</p>
+        </div>
+    
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html?category=electronics">Electronics</a></li>
+            <li><a href="../index.html?category=fashion">Fashion</a></li>
+            <li><a href="../index.html?category=home furniture">Furniture</a></li>
+            <li><a href="../index.html?category=Kitchen Appliances">Kitchen Appliances</a></li>
+            <li><a href="../index.html?category=Personal Care">Personal Care</a></li>
+            <li><a href="../cart/cart.html">Cart</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section contact">
+          <h2>Contact</h2>
+          <p>Email: support@ecommerce.com</p>
+          <p>Phone: +91 98765 43210</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2025 E-Commerce | All rights reserved</p>
+      </div>
+    </footer>
+    
+
+    <script type="module" src="checkout.js"></script>
+    <script type="module" src="../cart/cart.js"></script>
+    <script
+      src="https://kit.fontawesome.com/183f4a10c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

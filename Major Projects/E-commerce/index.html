@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">E-Commerce</div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html?category=electronics">Electronics</a></li>
+        <li><a href="index.html?category=fashion">Fashion</a></li>
+        <li><a href="index.html?category=home furniture">Furniture</a></li>
+        <li><a href="index.html?category=Kitchen Appliances">Kitchen Appliances</a></li>
+        <li><a href="index.html?category=Personal Care">Personal Care</a></li>
+      </ul>
+
+      <div class="cart">
+        <a href="cart/cart.html">
+          <i class="fas fa-shopping-cart"></i> Cart <span id="cart-count"
+            ></span
+          >
+        </a>
+      </div>
+
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner-section">
+      <div class="banner-wrapper">
+        <img src="./assets/HeroBanner1.jpg" alt="Shop Banner" class="banner-image" />
+        <img src="./assets/HeroBanner2.jpg" alt="Shop Banner" class="banner-image" />
+        <img src="./assets/HeroBanner3.jpg" alt="Shop Banner" class="banner-image" />
+        <img src="./assets/HeroBanner4.jpg" alt="Shop Banner" class="banner-image" />
+      </div>
+    </section>
+    
+    
+
+    <div id="cart-toast" class="cart-toast"></div>
+    <div id="notification" class="notification"></div>
+
+    <!-- Products Section -->
+    <section class="products"></section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>ShopLogo</h2>
+          <p>Your go-to store for amazing products at great prices!</p>
+        </div>
+
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html?category=electronics">Electronics</a></li>
+            <li><a href="index.html?category=fashion">Fashion</a></li>
+            <li><a href="index.html?category=home furniture">Furniture</a></li>
+            <li><a href="index.html?category=Kitchen Appliances">Kitchen Appliances</a></li>
+            <li><a href="index.html?category=Personal Care">Personal Care</a></li>
+            <li><a href="../cart/cart.html">Cart</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h2>Contact</h2>
+          <p>Email: support@shoplogo.com</p>
+          <p>Phone: +123 456 7890</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 ShopLogo | All rights reserved</p>
+      </div>
+    </footer>
+    <!-- <script src="script.js" type="module"></script> -->
+    <script type="module" src="script.js"></script>
+    <script  src="./cart/cart.js" type="module"></script>
+    <!-- <script src="./notification.js" type="module"></script> -->
+    <script
+      src="https://kit.fontawesome.com/183f4a10c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
