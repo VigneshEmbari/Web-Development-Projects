@@ -1,0 +1,50 @@
+[
+  {
+    "songName": "Peelings",
+    "music": "music/Peelings.mp3",
+    "album": "img/bg1.jpg",
+    "background": "img/background.jpg"
+  },
+  {
+    "songName": "Duniya",
+    "music": "music/duniyaa.mp3",
+    "album": "img/bg2.jpg",
+    "background": "img/background.jpg"
+  },
+  {
+    "songName": "Godari Gattu",
+    "music": "music/Godari_Gattu.mp3",
+    "album": "img/bg3.jpg",
+    "background": "img/background.jpg"
+  },
+  {
+    "songName": "Hilesso Hilessa",
+    "music": "music/Hilesso_Hilessa.mp3",
+    "album": "img/bg4.jpg",
+    "background": "img/background.jpg"
+  },
+  {
+    "songName": "Kesariya",
+    "music": "music/kesariya.mp3",
+    "album": "img/bg5.jpg",
+    "background": "img/background.jpg"
+  },
+  {
+    "songName": "Kissik",
+    "music": "music/Kissik.mp3",
+    "album": "img/bg6.jpg",
+    "background": "img/background.jpg"
+  },
+  {
+    "songName": "Ratan Lambiyan",
+    "music": "music/ratanLambiyan.mp3",
+    "album": "img/bg7.jpg",
+    "background": "img/background.jpg"
+  },
+  {
+    "songName": "Sooseki",
+    "music": "music/Sooseki.mp3",
+    "album": "img/bg8.jpg",
+    "background": "img/background.jpg"
+  }
+]
